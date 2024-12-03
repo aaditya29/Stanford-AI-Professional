@@ -9,7 +9,6 @@ Welcome to the Stanford AI Professional Certification Program repository. This r
 - [Notes](#notes)
 - [Code](#code)
 - [Projects](#projects)
-  w
 
 ## Introduction
 
