@@ -1,5 +1,9 @@
 # Stanford AI Professional Resources
 
+### Disclaimer
+
+All the resources are compiled by me and should be used as a learning resource only.
+
 1. **XCS221 Artificial Intelligence: Principles and Techniques**
 
    - [YouTube Playlist](https://www.youtube.com/playlist?list=PLoROMvodv4rO1NB9TD4iUZ3qghGEGtqNX)
