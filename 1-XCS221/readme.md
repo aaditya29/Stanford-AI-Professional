@@ -69,3 +69,24 @@ The learning rate is a crucial hyperparameter in gradient descent. It determines
 Convergence refers to the process of approaching the minimum of the cost function. In gradient descent, we iteratively update our parameters until the changes become negligibly small, indicating that we've reached (or are very close to) the minimum.
 
 By understanding these concepts, you'll have a solid foundation for grasping how gradient descent works and why it's such a powerful optimization technique.
+
+#### Gradient Descent in Python
+
+```Python
+points = [(2,4), (4,2)]
+
+def F(w):
+    return sum((w * x - y)**2 for x,y in points)
+
+def dF(w):
+    return sum(2*(2*x - y) * x for x,y in points)
+
+#Gradient Descent
+w=0
+eta=0.01
+for t in range(100):
+    value = F(w)
+    gradient = dF(w)
+    w = w - eta * gradient
+    print('iteration {}: w = {}, F(w)= {}'.format(t,w,value))
+```
